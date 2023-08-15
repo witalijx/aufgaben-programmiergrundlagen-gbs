@@ -5,15 +5,10 @@ namespace HelloWorld {
     internal class Program {
         static void Main(string[] args) {
             //Fakultät
-            int[] fak = new int[7];
-            int seven = 7;
-
-            for (int i = 0; i < seven; i++) {
-                fak[i] = i + 1;
-            }
-
+            int num = 7;
             int fakultat = 1;
-            foreach (int i in fak) {
+            
+            for (int i = 1; i <= num; i++) {
                 fakultat *= i;
             }
 
